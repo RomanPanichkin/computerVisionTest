@@ -12,6 +12,7 @@
 		CA2830451F2354E700DB7F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2830431F2354E700DB7F77 /* Main.storyboard */; };
 		CA2830471F2354E700DB7F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2830461F2354E700DB7F77 /* Assets.xcassets */; };
 		CA28304A1F2354E700DB7F77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2830481F2354E700DB7F77 /* LaunchScreen.storyboard */; };
+		CA2830521F23571C00DB7F77 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CA2830511F23571C00DB7F77 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CA2830461F2354E700DB7F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA2830491F2354E700DB7F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA28304B1F2354E700DB7F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2830511F23571C00DB7F77 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		CA28303E1F2354E700DB7F77 /* computerVision */ = {
 			isa = PBXGroup;
 			children = (
+				CA2830511F23571C00DB7F77 /* Inceptionv3.mlmodel */,
 				CA28303F1F2354E700DB7F77 /* AppDelegate.swift */,
 				CA2830411F2354E700DB7F77 /* ViewController.swift */,
 				CA2830431F2354E700DB7F77 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA2830421F2354E700DB7F77 /* ViewController.swift in Sources */,
+				CA2830521F23571C00DB7F77 /* Inceptionv3.mlmodel in Sources */,
 				CA2830401F2354E700DB7F77 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
